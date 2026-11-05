@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTOFOLIO - Moh Fahrur Rozi</title>
+    <style>
+      /* Base Editorial Typography & Layout */
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #faf9f6;
+        color: #141414;
+        margin: 0;
+        padding: 0 20px 60px 20px;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 850px;
+        margin: 0 auto;
+      }
+
+      /* Header Information */
+      header {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #141414;
+      }
+      .site-title {
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      h1 {
+        font-size: 42px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        line-height: 1.1;
+      }
+      .subtitle {
+        font-size: 20px;
+        margin: 0 0 8px 0;
+        font-style: italic;
+      }
+      .contact-info {
+        font-size: 16px;
+        margin: 0;
+      }
+
+      /* Sticky Navigation Bar (1 Line with Border) */
+      .sticky-nav-wrapper {
+        position: sticky;
+        top: 0;
+        background-color: #faf9f6;
+        padding: 15px 0;
+        z-index: 1000;
+      }
+      .nav-border-box {
+        border: 1.5px solid #141414;
+        padding: 12px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 16px;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Hide scrollbar Firefox */
+      }
+      .nav-border-box::-webkit-scrollbar {
+        display: none; /* Hide scrollbar Chrome/Safari */
+      }
+      .nav-item {
+        color: #141414;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        flex-shrink: 0;
+        white-space: nowrap;
+      }
+      .nav-item:hover {
+        text-decoration: underline;
+      }
+
+      /* Main Content Sections */
+      section {
+        padding-top: 40px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid #dcdbc6;
+      }
+      section:last-of-type {
+        border-bottom: none;
+      }
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #141414;
+        padding-bottom: 6px;
+      }
+      p {
+        font-size: 17px;
+        margin-bottom: 16px;
+        text-align: justify;
+      }
+      ul {
+        margin: 0 0 20px 0;
+        padding-left: 24px;
+      }
+      li {
+        font-size: 16px;
+        margin-bottom: 6px;
+      }
+
+      /* Subsection Headings */
+      .subsection-title {
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+      .project-block {
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+        border-bottom: 1px dashed #cccccc;
+      }
+      .project-block:last-child {
+        border-bottom: none;
+      }
+      .project-subtitle {
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        font-style: italic;
+      }
+      .field-tag {
+        font-style: italic;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+
+      /* Footer */
+      footer {
+        margin-top: 60px;
+        padding-top: 20px;
+        border-top: 2px solid #141414;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER IDENTITAS -->
+      <header>
+        <div class="site-title">PORTOFOLIO</div>
+        <h1>Moh Fahrur Rozi</h1>
+        <div class="subtitle">Mahasiswa Sistem Informasi</div>
+        <div class="contact-info">Email: daganrozi@gmail.com</div>
+      </header>
+
+      <!-- NAVIGASI 1 BARIS DENGAN BORDER -->
+      <div class="sticky-nav-wrapper">
+        <nav class="nav-border-box">
+          <a href="#tentang" class="nav-item">1. Tentang Saya</a>
+          <a href="#keahlian" class="nav-item">02. Keahlian</a>
+          <a href="#proyek" class="nav-item">03. Proyek Akademik</a>
+          <a href="#tujuan" class="nav-item">04. Tujuan Pengembangan Diri</a>
+          <a href="#penutup" class="nav-item">05. Penutup</a>
+        </nav>
+      </div>
+
+      <!-- 01. TENTANG SAYA -->
+      <section id="tentang">
+        <h2>1. Tentang Saya</h2>
+        <p>
+          Saya adalah mahasiswa Sistem Informasi yang memiliki ketertarikan pada
+          pengembangan perangkat lunak, perancangan pengalaman pengguna,
+          analisis data, dan pemodelan sistem informasi.
+        </p>
+        <p>
+          Saya senang mempelajari teknologi baru serta mengembangkan solusi
+          digital yang dapat membantu menyelesaikan permasalahan nyata. Melalui
+          berbagai proyek akademik, saya berusaha meningkatkan kemampuan teknis,
+          kreativitas, dan pola pikir analitis.
+        </p>
+        <p>
+          Saat ini, saya terus mengembangkan kompetensi di bidang Software & Web
+          Engineering, UI/UX Design, System Modeling, serta Data Analytics &
+          Research.
+        </p>
+      </section>
+
+      <!-- 02. KEAHLIAN -->
+      <section id="keahlian">
+        <h2>02. Keahlian</h2>
+
+        <div class="subsection-title">Software & Web Engineering — Pemula</div>
+        <ul>
+          <li>Dasar pemrograman dan pengembangan aplikasi</li>
+          <li>Pemahaman alur kerja sistem informasi</li>
+          <li>Perancangan aplikasi berbasis kebutuhan pengguna</li>
+        </ul>
+
+        <div class="subsection-title">UI/UX & System Modeling — Pemula</div>
+        <ul>
+          <li>User research dan identifikasi kebutuhan pengguna</li>
+          <li>Wireframing dan prototyping</li>
+          <li>Perancangan user flow dan information architecture</li>
+          <li>Pemodelan sistem menggunakan UML</li>
+        </ul>
+
+        <div class="subsection-title">Data Analytics & Research — Pemula</div>
+        <ul>
+          <li>Pengumpulan dan pengolahan data</li>
+          <li>Analisis data dasar</li>
+          <li>Penyusunan kuesioner penelitian</li>
+          <li>Analisis kepuasan pengguna menggunakan kerangka EUCS</li>
+        </ul>
+      </section>
+
+      <!-- 03. PROYEK AKADEMIK -->
+      <section id="proyek">
+        <h2>03. Proyek Akademik</h2>
+
+        <!-- Proyek 1 -->
+        <div class="project-block">
+          <div class="subsection-title">Aura Laundry Ecosystem</div>
+          <div class="project-subtitle">POS & Client Portal</div>
+          <p>
+            Proyek pengembangan ekosistem digital untuk layanan laundry yang
+            mengintegrasikan sistem kasir dengan portal pelanggan.
+          </p>
+          <p>
+            <strong>Tujuan:</strong> Meningkatkan efisiensi operasional laundry
+            dan memberikan kemudahan bagi pelanggan dalam mengakses informasi
+            layanan.
+          </p>
+          <p><strong>Fokus pengembangan:</strong></p>
+          <ul>
+            <li>Sistem Point of Sale (POS) untuk pengelolaan transaksi</li>
+            <li>Portal pelanggan untuk memantau status layanan</li>
+            <li>Perancangan alur sistem dan kebutuhan pengguna</li>
+            <li>Pengembangan konsep antarmuka yang mudah digunakan</li>
+          </ul>
+          <div class="field-tag">
+            Bidang: Software Engineering, System Design, UI/UX
+          </div>
+        </div>
+
+        <!-- Proyek 2 -->
+        <div class="project-block">
+          <div class="subsection-title">Redesign e-Santri LMS</div>
+          <div class="project-subtitle">Fokus: Pengumpulan Tugas</div>
+          <p>
+            Proyek redesign antarmuka dan pengalaman pengguna pada LMS e-Santri
+            untuk menyederhanakan proses pengumpulan tugas mahasiswa.
+          </p>
+          <p>
+            <strong>Latar belakang:</strong> Navigasi tugas yang bertingkat dan
+            proses pengumpulan berkas yang kurang praktis dapat menyulitkan
+            mahasiswa dalam menyelesaikan tugas.
+          </p>
+          <p><strong>Fokus perancangan:</strong></p>
+          <ul>
+            <li>Identifikasi permasalahan pengguna</li>
+            <li>Penyederhanaan navigasi dan struktur informasi</li>
+            <li>Perancangan wireframe dan prototype</li>
+            <li>Peningkatan kejelasan status pengumpulan tugas</li>
+            <li>Penyusunan rekomendasi perbaikan UX</li>
+          </ul>
+          <div class="field-tag">
+            Bidang: UI/UX Design, User Research, Prototyping
+          </div>
+        </div>
+
+        <!-- Proyek 3 -->
+        <div class="project-block">
+          <div class="subsection-title">
+            Riset Kepuasan Pengguna Portal Akademik SIAKAD
+          </div>
+          <div class="project-subtitle">
+            Menggunakan Kerangka End-User Computing Satisfaction (EUCS)
+          </div>
+          <p>
+            Penelitian untuk mengetahui tingkat kepuasan pengguna terhadap
+            portal akademik SIAKAD berdasarkan pengalaman mereka dalam
+            menggunakan sistem.
+          </p>
+          <p><strong>Fokus penelitian:</strong></p>
+          <ul>
+            <li>Pengumpulan data melalui kuesioner</li>
+            <li>Pengukuran kepuasan pengguna menggunakan kerangka EUCS</li>
+            <li>
+              Analisis aspek Content, Accuracy, Format, Ease of Use, dan
+              Timeliness
+            </li>
+            <li>
+              Penyusunan hasil analisis dan rekomendasi peningkatan kualitas
+              sistem
+            </li>
+          </ul>
+          <div class="field-tag">
+            Bidang: Data Analytics, Research, Information Systems
+          </div>
+        </div>
+      </section>
+
+      <!-- 04. TUJUAN PENGEMBANGAN DIRI -->
+      <section id="tujuan">
+        <h2>04. Tujuan Pengembangan Diri</h2>
+        <p>
+          Saya memiliki tujuan untuk terus meningkatkan kemampuan di bidang
+          teknologi informasi, khususnya pengembangan sistem, desain pengalaman
+          pengguna, dan analisis data.
+        </p>
+        <p>
+          Saya ingin mengembangkan kompetensi yang tidak hanya berfokus pada
+          aspek teknis, tetapi juga pada kemampuan memahami kebutuhan pengguna
+          dan menghasilkan solusi digital yang efektif, efisien, serta
+          bermanfaat.
+        </p>
+      </section>
+
+      <!-- 05. PENUTUP -->
+      <section id="penutup">
+        <h2>05. Penutup</h2>
+        <p>
+          Portofolio ini merupakan dokumentasi perjalanan belajar dan
+          pengembangan kompetensi saya sebagai mahasiswa Sistem Informasi.
+        </p>
+        <p>
+          Saya percaya bahwa setiap proyek dan pengalaman merupakan kesempatan
+          untuk belajar, berkembang, dan memberikan kontribusi melalui
+          teknologi.
+        </p>
+        <p
+          style="
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 18px;
+          "
+        >
+          Learn • Build • Grow
+        </p>
+      </section>
+
+      <!-- FOOTER / AKHIR TEKS -->
+      <footer>
+        <p style="margin: 0; font-weight: bold">Moh Fahrur Rozi</p>
+        <p style="margin: 0">daganrozi@gmail.com</p>
+      </footer>
+    </div>
+  </body>
+</html>
